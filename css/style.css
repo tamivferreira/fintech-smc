@@ -1,0 +1,20 @@
+/* Tamires Vieira Ferreira - RM555864 */
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Tamanho do gráfico e espaçamento */
+  .grafico-img {
+    width: 200px;  /* ou outro valor */
+    height: auto;
+    border-radius: 50%;
+  }  
+  
+  /* Pontinho colorido da legenda */
+  .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }

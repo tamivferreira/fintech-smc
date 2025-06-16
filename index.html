@@ -1,0 +1,43 @@
+<!-- Tamires Vieira Ferreira - RM555864 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMC - Saldo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-black text-light">
+
+  <div class="container d-flex flex-column align-items-center justify-content-center min-vh-100 text-center">
+
+    <h2 class="fw-bold mb-2">SMC</h2>
+    <p class="text-grey">Saldo total disponível</p>
+
+    <h1 class="text-white fw-semibold mb-4">R$ 7.550,00</h1>
+
+    <!-- Gráfico pizza -->
+    <img src="css/grafico_pizza.png" alt="Gráfico de despesas" class="grafico-img mb-2">
+
+    <!-- Legenda -->
+    <div class="text-start text-white small mb-4">
+      <p class="mb-1"><span class="dot" style="background:#999;"></span> Habitação</p>
+      <p class="mb-1"><span class="dot" style="background:#666;"></span> Transporte</p>
+      <p><span class="dot" style="background:#333;"></span> Alimentação</p>
+    </div>
+
+    <!-- Alerta -->
+    <div class="alert alert-warning py-2 px-3 rounded-pill small fw-bold mb-4">
+      Conta de luz vence em 3 dias
+    </div>
+
+    <!-- Botões -->
+    <div class="d-flex gap-3">
+      <a href="#" class="btn btn-outline-light px-4">Adicionar Gasto</a>
+      <button class="btn btn-light text-dark px-4">Transferir</button>
+    </div>
+  </div>
+
+</body>
+</html>
